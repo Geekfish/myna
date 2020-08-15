@@ -1,22 +1,25 @@
-# Myna
+# 🦜 Myna
 
 Just another slack bot.
 
-## Table of Contents
+🚩This is not working at all right now, everyting is WIP.
+
+## 📒 Table of Contents
 
 <!-- TOC -->
 
-- [Myna](#myna)
-    - [Table of Contents](#table-of-contents)
-    - [Installation](#installation)
-    - [Documentation](#documentation)
-    - [Usage](#usage)
-    - [Testing](#testing)
+- [🦜 Myna](#%F0%9F%A6%9C-myna)
+    - [📒 Table of Contents](#-table-of-contents)
+    - [🔧 Installation](#-installation)
+    - [📖 Documentation](#-documentation)
+    - [🏃‍♀️ Usage](#%E2%80%8D-usage)
+    - [🧪 Testing](#%F0%9F%A7%AA-testing)
         - [Test Locally](#test-locally)
+    - [✅ Pre-Commit](#-pre-commit)
 
 <!-- /TOC -->
 
-## Installation
+## 🔧 Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `myna` to your list of dependencies in `mix.exs`:
@@ -30,14 +33,14 @@ end
 ```
 
 
-## Documentation
+## 📖 Documentation
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/myna](https://hexdocs.pm/myna).
 
 
-## Usage
+## ✨ Usage
 
 TODO: termporary env variable setup, this only works at compile time,
  so need to pull configuration in a differnt way before deploying/distributing.
@@ -47,7 +50,7 @@ TODO: termporary env variable setup, this only works at compile time,
 export MYNA_SLACK_TOKEN="xxxxxxxx"
 ```
 
-## Testing
+## 🧪 Testing
 
 
 ### Test Locally
