@@ -1,6 +1,20 @@
 # Myna
 
-**TODO: Add description**
+Just another slack bot.
+
+## Table of Contents
+
+<!-- TOC -->
+
+- [Myna](#myna)
+    - [Table of Contents](#table-of-contents)
+    - [Installation](#installation)
+    - [Documentation](#documentation)
+    - [Usage](#usage)
+    - [Testing](#testing)
+        - [Test Locally](#test-locally)
+
+<!-- /TOC -->
 
 ## Installation
 
@@ -14,6 +28,9 @@ def deps do
   ]
 end
 ```
+
+
+## Documentation
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
