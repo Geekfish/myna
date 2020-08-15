@@ -3,6 +3,8 @@ defmodule Myna do
 
   use Application
 
+  import Supervisor.Spec, only: [supervisor: 2]
+
   def start(_start_type, _start_args) do
     IO.puts("Starting the application")
 
@@ -26,10 +28,7 @@ defmodule Myna do
 
   defp children(token) do
     [
-      %{
-        id: Slack.Bot,
-        start: {Slack.Bot, :start_link, [Myna.SlackRtm, [], token]}
-      }
+      supervisor(Slack.Bot, [Myna.SlackRtm, [], token])
     ]
   end
 end
