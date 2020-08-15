@@ -1,5 +1,7 @@
 # 🦜 Myna
 
+![Myna CI](https://github.com/Geekfish/myna/workflows/Myna%20CI/badge.svg)
+
 Just another slack bot.
 
 🚩This is not working at all right now, everyting is WIP.
@@ -12,7 +14,7 @@ Just another slack bot.
     - [📒 Table of Contents](#-table-of-contents)
     - [🔧 Installation](#-installation)
     - [📖 Documentation](#-documentation)
-    - [🏃‍♀️ Usage](#%E2%80%8D-usage)
+    - [✨ Usage](#-usage)
     - [🧪 Testing](#%F0%9F%A7%AA-testing)
         - [Test Locally](#test-locally)
     - [✅ Pre-Commit](#-pre-commit)
