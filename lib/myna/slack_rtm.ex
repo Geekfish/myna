@@ -1,4 +1,6 @@
 defmodule Myna.SlackRtm do
+  @moduledoc false
+
   use Slack
 
   def handle_connect(slack, state) do

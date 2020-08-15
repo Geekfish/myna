@@ -23,7 +23,8 @@ defmodule Myna.MixProject do
   defp deps do
     [
       {:slack, "~> 0.23.5"},
-      # Dev:
+      # Dev
+      {:credo, "~> 1.4", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
     ]
   end

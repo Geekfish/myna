@@ -1,4 +1,6 @@
 defmodule Myna do
+  @moduledoc false
+
   use Application
 
   def start(_start_type, _start_args) do
