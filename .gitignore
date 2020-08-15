@@ -22,3 +22,5 @@ erl_crash.dump
 # Ignore package tarball (built via "mix hex.build").
 myna-*.tar
 
+# Ignore file that stores env variables
+.env
