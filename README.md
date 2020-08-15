@@ -59,3 +59,19 @@ Commands require a publically accessible call back. You can set up `ngrok` to ge
 2. Follow the [setup instructions](https://dashboard.ngrok.com/get-started/setup)
 
 3. ... TODO: more steps reg ports etc
+
+
+## ✅ Pre-Commit
+
+How to setup git pre-commit hooks to keep this project nice and clean:
+
+1. Install [pre-commit](https://pre-commit.com/#installation) if it is not yet installed.
+2. Run
+   ```zsh
+   pre-commit install
+   ```
+
+ℹ️ You can regularly upgrade the existing commit hooks to the latest verion by running:
+```zsh
+pre-commit autoupdate
+```
